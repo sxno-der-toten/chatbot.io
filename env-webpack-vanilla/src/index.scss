@@ -25,3 +25,15 @@ nav{
   font-weight: bold;
   color: blue;
 }
+
+.notif {
+  width: 20px; 
+  height: 20px; 
+  background-color: blue; 
+  border-radius: 50%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  color: white; 
+  font-weight: bold;
+}

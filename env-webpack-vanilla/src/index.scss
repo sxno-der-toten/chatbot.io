@@ -2,6 +2,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: black;
+  overflow: hidden;
 }
 
 .col-md-3 {
@@ -34,4 +36,45 @@ html, body {
 .name {
   margin-top: 4px;
   color : white;
+}
+
+.notif {
+  color: white;
+}
+
+.card {
+  color: white;
+  background-color: #010e39;
+}
+
+// .bottom-fixed {
+//   position:fixed;
+//   bottom: 0;
+//   width: 100vh;
+// }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containers {
+  height: 82vh;
+  background-image: url('assets/Gojo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line {
+  color: white;
+}
+
+.linez {
+  color: white;
+  margin-top: 2.5vh;
+}
+
+.fa-classic, .fa-regular, .fa-solid, .far, .fas { 
+  color: white;
 }

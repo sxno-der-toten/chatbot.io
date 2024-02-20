@@ -21,9 +21,10 @@ body html {
     border-bottom: 2px solid #f6f7f9;
     backdrop-filter: blur(24px);
         -webkit-backdrop-filter: blur(24px);
-       
-
-
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 } 
 
 .mssga{
@@ -46,8 +47,6 @@ body html {
 
 
 .message-container {
-
-    
     overflow-y:scroll; /* Activez le défilement vertical */
     height: 76vh;
    /* background-image: url('Design sans titre-63.png'); /* Chemin vers votre image */
